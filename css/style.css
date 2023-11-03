@@ -25,14 +25,12 @@ body{
   height: fit-content;
 }
 
-#pink{
-  background-image: url(../img/back.png);
-}
 
 #about{
   background-image: url(../img/headersmall.png);
   background-repeat: no-repeat;
   height: 42rem;
+  
 }
 
 #work{
@@ -544,10 +542,8 @@ footer{
 
 #footer3{
   width: 1rem;
-  margin-top: 5rem;
-  margin-left: 8rem;
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
 
@@ -686,7 +682,7 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite{
-  background-image: url("/img/yellow.png");
+  background-image: url("../img/yellow.png");
 
   background-position: 0px 0px;
   margin: auto;
@@ -695,17 +691,17 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite:hover{
-  background-image: url("/img/yellow.png");
+  background-image: url("../img/yellow.png");
   background-position: 0px -400px;
 }
 
 .comp-sprite:active{
-  background-image: url("/img/yellow.png");
+  background-image: url("../img/yellow.png");
   background-position: 0px 0px;
 }
 
 .comp-sprite2{
-  background-image: url("/img/red.png");
+  background-image: url("../img/red.png");
 
   background-position: 0px 0px;
   margin: auto;
@@ -714,7 +710,7 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite2:hover{
-  background-image: url("/img/red.png");
+  background-image: url("../img/red");
   background-position: 0px -400px;
 }
 
@@ -723,8 +719,7 @@ input:focus, textarea:focus{
   background-position: 0px 0px;
 }
 .comp-sprite3{
-  background-image: url("/img/poster.png");
-
+  background-image: url("../img/poster.png");
   background-position: 0px 0px;
   margin: auto;
   height: 400px;
@@ -732,17 +727,17 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite3:hover{
-  background-image: url("/img/poster.png");
+  background-image: url("../img/poster.png");
   background-position: 0px -400px;
 }
 
 .comp-sprite3:active{
-  background-image: url("/img/poster.png");
+  background-image: url("../img/poster.png");
   background-position: 0px 0px;
 }
 
 .comp-sprite4{
-  background-image: url("/img/black.png");
+  background-image: url("../img/black.png");
   background-position: 0px 0px;
   margin: auto;
   height: 300px;
@@ -750,17 +745,17 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite4:hover{
-  background-image: url("/img/black.png");
+  background-image: url("../img/black.png");
   background-position: 0px -300px;
 }
 
 .comp-sprite4:active{
-  background-image: url("/img/black.png");
+  background-image: url("../img/black.png");
   background-position: 0px 0px;
 }
 
 .comp-sprite5{
-  background-image: url("/img/white.png");
+  background-image: url("../img/white.png");
   background-position: 0px 0px;
   margin: auto;
   height: 300px;
@@ -768,18 +763,18 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite5:hover{
-  background-image: url("/img/white.png");
+  background-image: url("../img/white.png");
   background-position: 0px -300px;
 }
 
 .comp-sprite5:active{
-  background-image: url("/img/white.png");
+  background-image: url("../img/white.png");
   background-position: 0px 0px;
 }
 
 
 .comp-sprite6{
-  background-image: url("/img/maor.png");
+  background-image: url("../img/maor.png");
 
   background-position: 0px 0px;
   margin: auto; 
@@ -788,11 +783,11 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite6:hover{
-  background-image: url("/img/maor.png");
+  background-image: url("../img/maor.png");
   background-position: 0px -234px;
 }
 
 .comp-sprite6:active{
-  background-image: url("/img/maor.png");
+  background-image: url("../img/maor.png");
   background-position: 0px 0px;
 }
