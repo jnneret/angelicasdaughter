@@ -766,8 +766,5 @@ margin-left: -55%;
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 12px;
-    width: 100%;
-    margin: 0;
   }
 }
