@@ -764,27 +764,10 @@ margin-left: -55%;
   background-position: 0px 0px;
 }
 
-@media only screen and (min-width: 992px) {
-  body {
-    font-size: 16px;
-    width: 80%;
-    margin: auto;
+@media screen and (max-width: 600px) {
+  .red-box{
+    width:100px;
+    }
   }
-}
 
-/* styles for tablet devices */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    font-size: 14px;
-    width: 90%;
-    margin: auto;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 12px;
-    width: 100%;
-    margin: 0;
-  }
-}
