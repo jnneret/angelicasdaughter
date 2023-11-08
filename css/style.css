@@ -7,7 +7,7 @@ html{
 
 body{
   background-color: #F2D5D5;
-  max-width: 70.25rem;
+  max-width: 100%;
   color: var(--brand-black, #262526);
   text-align: center;
   font-family: Manrope;
@@ -21,15 +21,14 @@ body{
 #home{
   background-image: url(../img/topper2.png);
   background-repeat: no-repeat;
-  width: 70rem;
-  height: fit-content;
+  width: 100%;
 }
 
 
 #about{
   background-image: url(../img/headersmall.png);
   background-repeat: no-repeat;
-  height: 42rem;
+  width: 100%;
   
 }
 
@@ -41,7 +40,7 @@ body{
 header{
   display: flex;
   align-items: center;
-  margin-left: -35px;
+  margin-left: 7%;
 }
 
   
@@ -460,28 +459,22 @@ flex-shrink: 0;
 }
 
 #me{
-width: 25rem;
-height: 33.33331rem;
-flex-shrink: 0;
-margin-top: 29rem;
-margin-left: 2rem;
+margin-left: -25%;
+margin-top: 33%;
 }
 
 #bw{
-width: 12.5rem;
-height: 15.57181rem;
-flex-shrink: 0;
-margin-top: -26rem;
-margin-left: 3rem;
+  margin-left: -20%;
+  margin-top: -25%;
 }
 
 #media{
-  margin-top: -19rem;
+  margin-left: 35%;
+  margin-top: -20%;
 }
 
 #mom{
-  margin-left: 6rem;
-  margin-top: 4rem;
+  margin-left: 25%;
 }
 
 .grid-container{
@@ -517,32 +510,19 @@ margin-left: 3rem;
 }
 
 footer{
-  width: 1rem;
-  margin-top: 1rem;
-  margin-left: 8rem;
-  display: flex;
-  align-items:center;
+ align-items: center;
 }
 
 #footer2{
-  width: 1rem;
-  margin-top: -7rem;
-  margin-left: 8rem;
-  display: flex;
-  align-items:center;
+  align-items: center;
+  margin-top: 15%;
 }
 
 #footer22{
-  width: 1rem;
-  margin-top: 10rem;
-  margin-left: 8rem;
-  display: flex;
   align-items:center;
 } 
 
 #footer3{
-  width: 1rem;
-  display: flex;
   align-items: center;
 }
 
@@ -604,21 +584,19 @@ input:focus, textarea:focus{
 }
 
 .headshot{
-  margin-top: 10rem;
-  margin-left: -45rem;
+margin-top: 10%;
+margin-left: -55%;
 }
 
 .slant{
-  margin-top: -12rem;
-  margin-left: 1rem;
+  margin-top: -15%;
+  margin-left: 4%;
 }
 
 #bio{
-  margin-top: -45rem;
-  margin-left: 30rem;
-  width: 41.625rem;
-  height: 31.8125rem;
-  flex-shrink: 0;
+  margin-top: -48.5%;
+  margin-left: 35%;
+  margin-right: 5%;
   color: var(--brand-black, #262526);
   font-family: Manrope;
   font-size: 1.25rem;
@@ -629,11 +607,9 @@ input:focus, textarea:focus{
 }
 
 #bio1{
-  margin-top: -20rem;
-  margin-left: 30rem;
-  width: 41.625rem;
-  height: 31.8125rem;
-  flex-shrink: 0;
+  margin-left: 35%;
+  margin-top: 2.5%;
+  margin-right: 5%;
   color: var(--brand-black, #262526);
   font-family: Manrope;
   font-size: 1.25rem;
@@ -644,11 +620,9 @@ input:focus, textarea:focus{
 }
 
 #bio2{
-  margin-top: -25rem;
-  margin-left: 30rem;
-  width: 41.625rem;
-  height: 31.8125rem;
-  flex-shrink: 0;
+  margin-left: 35%;
+  margin-top: 3%;
+  margin-right: 5%;
   color: var(--brand-black, #262526);
   font-family: Manrope;
   font-size: 1.25rem;
@@ -659,11 +633,9 @@ input:focus, textarea:focus{
 }
 
 #bio3{
-  margin-top: -23rem;
-  margin-left: 30rem;
-  width: 41.625rem;
-  height: 31.8125rem;
-  flex-shrink: 0;
+  margin-left: 35%;
+  margin-top: 2.5%;
+  margin-right: 5%;
   color: var(--brand-black, #262526);
   font-family: Manrope;
   font-size: 1.25rem;
@@ -674,7 +646,7 @@ input:focus, textarea:focus{
 }
 
 #writing{
-  margin-top: 5px;
+  margin-left: 20%;
 }
 
 #photo2{
@@ -701,7 +673,7 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite2{
-  background-image: url("../img/red.png");
+  background-image: url("../img/fgred.png");
 
   background-position: 0px 0px;
   margin: auto;
@@ -710,12 +682,12 @@ input:focus, textarea:focus{
 }
 
 .comp-sprite2:hover{
-  background-image: url("../img/red");
+  background-image: url("../img/fgred.png");
   background-position: 0px -400px;
 }
 
 .comp-sprite2:active{
-  background-image: url("/img/red.png");
+  background-image: url("/img/fgred.png");
   background-position: 0px 0px;
 }
 .comp-sprite3{
@@ -790,4 +762,12 @@ input:focus, textarea:focus{
 .comp-sprite6:active{
   background-image: url("../img/maor.png");
   background-position: 0px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+  }
 }
